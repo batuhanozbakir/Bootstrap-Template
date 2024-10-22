@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/soru-5.css">
+</head>
+<body>
+    <div id="container">
+    
+        
+
+    </div>
+
+    <script >
+        let fotolar = [ "https://picsum.photos/200/300?random=1",
+                        "https://picsum.photos/200/300?random=2",
+                        "https://picsum.photos/200/300?random=3",
+                        "https://picsum.photos/200/300?random=4",
+                        "https://picsum.photos/200/300?random=5",
+                        "https://picsum.photos/200/300?random=6",
+                        "https://picsum.photos/200/300?random=7",
+                        "https://picsum.photos/200/300?random=8",
+                        "https://picsum.photos/200/300?random=9",
+                        "https://picsum.photos/200/300?random=10",
+                        "https://picsum.photos/200/300?random=11",
+                        "https://picsum.photos/200/300?random=12",
+                        ];
+        let liste = document.getElementById("container");
+
+        fotolar.forEach(foto => {
+            let imgEtiketi = document.createElement("img");
+            imgEtiketi.src=foto;
+            container.appendChild(imgEtiketi);
+        });
+    </script>
+</body>
+</html>

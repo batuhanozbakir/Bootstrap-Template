@@ -1,0 +1,12 @@
+#container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 20px;
+    justify-content: center;
+    padding: auto;
+}
+body{
+    background-color: black;
+}
